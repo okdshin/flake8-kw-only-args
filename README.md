@@ -8,8 +8,8 @@ def default(key=value):
     ...
 ```
 
-Positional paramters can unintentionally override these arguments.  Instead use
-the safer kw-only argument equivalent:
+Positional parameters can unintentionally override these arguments.  Instead
+use the safer kw-only argument equivalent:
 
 ```python
 def kw_only(*, key=value):

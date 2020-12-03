@@ -37,10 +37,11 @@ setup(
     name="flake8-kw-only-args",
     version=find_version(),
     description="Enforce use of kw-only instead of default kw args.",
+    long_description_content_type='text/markdown',
     long_description=\
         "Positional parameters can unintentionally set default kwargs: "
-        "def default(key=value); instead use kw-only args: "
-        "def kw_only(*, key=value).",
+        "`def default(key=value)`; instead use kw-only args: "
+        "`def kw_only(*, key=value)`.",
     author="Andrew Gaul",
     author_email="gaul@gaul.org",
     url="https://github.com/gaul/flake8-kw-only-args",
