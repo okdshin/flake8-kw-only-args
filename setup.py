@@ -25,7 +25,8 @@ def find_version():
 readme = read("README.md")
 
 requirements = [
-    "flake8"
+    "flake8",
+    "attrs",
 ]
 
 test_requirements = [
