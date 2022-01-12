@@ -34,7 +34,7 @@ test_requirements = [
 ]
 
 setup(
-    name="flake8-kw-only-args",
+    name="flake8_kw_only_args",
     version=find_version(),
     description="Enforce use of kw-only instead of default kw args.",
     long_description_content_type='text/markdown',
@@ -44,16 +44,16 @@ setup(
         "`def kw_only(*, key=value)`.",
     author="Andrew Gaul",
     author_email="gaul@gaul.org",
-    url="https://github.com/gaul/flake8-kw-only-args",
+    url="https://github.com/gaul/flake8_kw_only_args",
     py_modules=[
-        "flake8-kw-only-args",
+        "flake8_kw_only_args",
     ],
     include_package_data=True,
     python_requires=">=3.0",
     install_requires=requirements,
     license="BSD",
     zip_safe=False,
-    keywords="flake8-kw-only-args",
+    keywords="flake8_kw_only_args",
     classifiers=[
         "Environment :: Console",
         "Framework :: Flake8",
